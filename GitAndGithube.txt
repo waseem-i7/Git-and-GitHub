@@ -1,0 +1,66 @@
+Question 1. What is Git?
+Answere : Git is a  version control system that allows multiple people to collaborate on a project, track changes, and easily manage different versions of files.Git is like a time machine for your files. It keeps track of all the changes you make, so you can easily go back to a previous version if something goes wrong or compare different versions to see what's changed. It's great for teamwork too, as multiple people can work on the same files without overwriting each other's work.
+
+Question 2. What is Github?
+Answere : GitHub is a web-based platform that hosts and manages Git repositories. It provides a centralized place for developers to collaborate, share, and contribute to projects. It offers features like version control, issue tracking, and pull requests, making it easier for teams to work together efficiently and effectively on software development projects.
+
+
+*********Important Commands********
+##Command To Check Version
+To check Version : git --version
+
+##Command To Change or Add User Name and Email
+To Config a user : git config --global user.name "Waseem Idrisi"
+To Config Email ID: git config --global user.email "m123786w@gmail.com"
+To check user name : git config --global user.name
+To check user email : git config --global user.email
+Other Commands : git config --global --edit =>To save changes Esc, :wq, Enter
+
+##To Create Directory/Folder 
+mkdir Directory/Folder name
+cd Directroy/Folder name
+
+##To create local repositories
+git init
+
+##To see files and Folder
+ls
+ls -a
+
+##To check Git Status
+git status
+
+##To add and commit file/folder to repository
+git add file_name
+git add .
+git commit -m "initial commit"
+git log
+
+##Staging Area Concept
+Working Directory
+    |
+   \/
+   git add
+    |
+   \/
+   staging Area
+    |
+   \/
+   git commit
+    |
+   \/
+   repository 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
