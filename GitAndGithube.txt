@@ -52,6 +52,35 @@ Working Directory
    repository 
 
 
+##command related to checkout and branch
+git checkout (commit hashcode(get using git log) or master/main) 
+To check currect brance : git branch
+To creat brance Name : git branch BranchName
+To checkout and creat new branch : git checkout -b Waseem/multiply
+
+##command to merge branches(go to the branch in which you want to add other branch)
+git merge (other branch name)
+
+##To ignore a file
+To create file : touch .gitignore
+                 code .gitignore
+                 using New File
+                 write all files name inside .gitignore file show that git ignore these files
+
+
+##To add remote with git repository
+git remote add origin https://github.com/waseem-i7/Git-and-GitHub.git
+git branch -M master
+git push -u origin master
+To check push/fetch origin : git remote -v
+
+
+
+
+
+
+
+
 
 
 
