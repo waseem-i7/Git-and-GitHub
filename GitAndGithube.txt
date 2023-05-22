@@ -71,7 +71,7 @@ To create file : touch .gitignore
 ##To add remote with git repository
 git remote add origin https://github.com/waseem-i7/Git-and-GitHub.git
 git branch -M master
-git push -u origin master
+git push -u origin master or git push origin master
 To check push/fetch origin : git remote -v
 
 
